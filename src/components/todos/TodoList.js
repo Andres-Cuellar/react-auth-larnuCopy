@@ -9,7 +9,6 @@ export default function TodoList() {
   const { todos, setTodos, removeTodo } = useContext(TodoContext);
   const todoService = new TodoService();
 
-
   async function getTodos() {
     const todoList = await todoService.getAll();
     console.log(todoList);
