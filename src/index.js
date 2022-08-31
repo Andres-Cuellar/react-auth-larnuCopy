@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UserContextProvider from './contexts/userContext';
-import TodoContextProvider from './contexts/todoContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
